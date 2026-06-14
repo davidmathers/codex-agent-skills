@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grill with Docs vs Claude"
+  short_description: "Harden Codex plans with docs and Claude review"
+  default_prompt: "Use $grill-with-docs-vs-claude to stress-test this implementation plan against the project glossary and get a Claude Code adversarial review."
