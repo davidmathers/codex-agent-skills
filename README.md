@@ -5,6 +5,7 @@ Agent Skills specifically for OpenAI Codex
 ## Skills
 
 - [`grill-with-docs-vs-claude`](./skills/grill-with-docs-vs-claude): a Codex planning skill that uses Claude Code CLI for adversarial review.
+- [`xquik`](./skills/xquik): a Codex skill for Xquik REST, MCP, webhook, and SDK workflows.
 
 ## Install
 
