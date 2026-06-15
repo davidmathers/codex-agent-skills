@@ -4,4 +4,14 @@
 
 This skill differs from Matt Pocock's original in that his `CONTEXT.md` is renamed here to `GLOSSARY.md`.
 
+## Install
+
+`grill-with-docs-vs-claude` is intended to be installed globally into Codex, not into a specific project repository. You can run this command from any directory.
+
+```bash
+npx skills add -g davidmathers/codex-agent-skills --skill grill-with-docs-vs-claude --agent codex
+```
+
+## Requirements
+
 The skill requires Claude Code CLI to be installed, authenticated, and available as `claude` on `PATH`, because Act 2 shells out to Claude for the cross-model review. Remember to set Claude's default model to your preference before using.
